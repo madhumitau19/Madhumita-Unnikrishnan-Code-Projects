@@ -15,12 +15,13 @@ body{
     color: black;
     font-style: italic;
 }
-#list{
-    color: rgb(47, 47, 47);
-}
 a{
     color:rgb(100, 99, 99);
-
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(62, 97, 8);
 }
 #exercise{
     margin-left: 30px;
